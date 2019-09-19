@@ -1,0 +1,31 @@
+{
+    "name": "hbgl/php-code-128-encoder",
+    "description": "Encode text for use with Code 128 fonts such as Libre Barcode 128.",
+    "homepage": "https://github.com/hbgl/php-code-128-encoder",
+    "type": "library",
+    "license": "MIT",
+    "keywords": [
+        "Barcode",
+        "Barcode Font",
+        "Code 128",
+        "Libre Barcode",
+        "Encoder"
+    ],
+    "require": {
+        "tecnickcom/tc-lib-barcode": "1.15.14"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^8.3",
+        "phpstan/phpstan": "^0.11.16"
+    },
+    "autoload": {
+        "psr-4": {
+            "Hbgl\\Barcode\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Hbgl\\Barcode\\Tests\\": "tests/"
+        }
+    }
+}

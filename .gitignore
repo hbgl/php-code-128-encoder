@@ -1,0 +1,17 @@
+
+### Code ###
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+
+### Composer ###
+composer.phar
+/vendor/
+
+### PHP CS Fixer ###
+.php_cs.cache
+
+### phpunit ###
+.phpunit.result.cache

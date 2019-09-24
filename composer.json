@@ -12,11 +12,11 @@
         "Encoder"
     ],
     "require": {
-        "php": "^7.1",
+        "php": ">=7.1.3",
         "tecnickcom/tc-lib-barcode": "1.15.14"
     },
     "require-dev": {
-        "phpunit/phpunit": "^7.5||^8.3",
+        "phpunit/phpunit": "^7.5",
         "phpstan/phpstan": "^0.11.16"
     },
     "autoload": {

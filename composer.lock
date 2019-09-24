@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "bd5131704e7770c147bc5874cd05508c",
+    "content-hash": "8a2dffb633d96c93f3727fa1500c87d4",
     "packages": [
         {
             "name": "tecnickcom/tc-lib-barcode",
@@ -98,16 +98,16 @@
         },
         {
             "name": "tecnickcom/tc-lib-color",
-            "version": "1.12.12",
+            "version": "1.12.13",
             "source": {
                 "type": "git",
                 "url": "https://github.com/tecnickcom/tc-lib-color.git",
-                "reference": "bfb8e97975ef9979e808adb464a2bb27052c7115"
+                "reference": "67402204a7120716fe8e885019990501c5d4cffb"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/tecnickcom/tc-lib-color/zipball/bfb8e97975ef9979e808adb464a2bb27052c7115",
-                "reference": "bfb8e97975ef9979e808adb464a2bb27052c7115",
+                "url": "https://api.github.com/repos/tecnickcom/tc-lib-color/zipball/67402204a7120716fe8e885019990501c5d4cffb",
+                "reference": "67402204a7120716fe8e885019990501c5d4cffb",
                 "shasum": ""
             },
             "require": {
@@ -137,8 +137,8 @@
             "authors": [
                 {
                     "name": "Nicola Asuni",
-                    "role": "lead",
-                    "email": "info@tecnick.com"
+                    "email": "info@tecnick.com",
+                    "role": "lead"
                 }
             ],
             "description": "PHP library to manipulate various color representations",
@@ -157,7 +157,7 @@
                 "tc-lib-color",
                 "web"
             ],
-            "time": "2018-06-23T09:21:30+00:00"
+            "time": "2019-09-19T12:31:29+00:00"
         }
     ],
     "packages-dev": [
@@ -2919,6 +2919,8 @@
     "stability-flags": [],
     "prefer-stable": false,
     "prefer-lowest": false,
-    "platform": [],
+    "platform": {
+        "php": "^7.1"
+    },
     "platform-dev": []
 }

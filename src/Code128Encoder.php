@@ -28,6 +28,7 @@ class Code128Encoder
      * Encode text as Code 128 for use with a barcode font.
      *
      * @param string $text
+     * @param string|null $type
      * @return string Encoded text.
      */
     public static function encode($text, $type = null)

@@ -4,7 +4,7 @@ namespace Hbgl\Barcode\Adapters;
 
 trait AdapterTrait
 {
-    /** @var static|null */
+    /** @var self|null */
     private static $instance;
 
     /**
@@ -17,7 +17,7 @@ trait AdapterTrait
     }
 
     /**
-     * @return static
+     * @return self
      */
     protected static function getInstance()
     {

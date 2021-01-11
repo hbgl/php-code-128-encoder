@@ -72,7 +72,13 @@ class Code128EncoderTest extends TestCase
     public function testInvalidType(): void
     {
         $this->expectException(\UnexpectedValueException::class);
-        $this->expectExceptionMessageRegExp('/\\$type/');
+        if (method_exists($this, 'expectExceptionMessageMatches')) {
+            $this->expectExceptionMessageMatches('/\\$type/');
+        } elseif (method_exists($this, 'expectExceptionMessageRegExp')) {
+            $this->expectExceptionMessageRegExp('/\\$type/');
+        } else {
+            $this->fail();
+        }
         Code128Encoder::encode('ABCDEFG', '😱😱😱');
     }
 }

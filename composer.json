@@ -13,10 +13,10 @@
     ],
     "require": {
         "php": ">=7.1.3",
-        "tecnickcom/tc-lib-barcode": "1.15.14"
+        "tecnickcom/tc-lib-barcode": "^1.17.1"
     },
     "require-dev": {
-        "phpunit/phpunit": "^7.5",
+        "phpunit/phpunit": "^9.5.0||^8.5.13||^7.5.20",
         "phpstan/phpstan": "^0.11.16"
     },
     "autoload": {

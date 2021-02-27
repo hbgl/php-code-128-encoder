@@ -22,7 +22,7 @@ trait AdapterTrait
     protected static function getInstance()
     {
         if (self::$instance === null) {
-            // Call self constructor because to skip default initialization.
+            // Call constructor defined in this trait. See comment above.
             self::$instance = new self();
 
             // Setting the ASCII maps is the only initialization we need to perform.

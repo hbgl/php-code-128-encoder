@@ -1,6 +1,7 @@
 # PHP Code 128 Encoder for Barcode Font
 
 [![CI](https://github.com/hbgl/php-code-128-encoder/workflows/CI/badge.svg)](https://github.com/hbgl/php-code-128-encoder/actions)
+[![Latest Stable Version](https://poser.pugx.org/hbgl/php-code-128-encoder/v)](https://packagist.org/packages/hbgl/php-code-128-encoder)
 
 Encode text for use with Code 128 fonts such as [Libre Barcode 128](https://github.com/graphicore/librebarcode). The actual encoding is done by [tc-lib-barcode](https://github.com/tecnickcom/tc-lib-barcode).
 

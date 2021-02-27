@@ -7,7 +7,7 @@ use PHPUnit\Framework\TestCase;
 
 class SamplesTest extends TestCase
 {
-    public function testSample1()
+    public function testSample1(): void
     {
         // Encode as Code 128.
         $encoded = Code128Encoder::encode('ABC123456DEF');

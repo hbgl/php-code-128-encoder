@@ -82,6 +82,10 @@ Result:
 
 ![Barcode Result](assets/barcode.png)
 
+## PHP 7.x
+
+Support for PHP 7.x ended with version [0.2.7](https://github.com/hbgl/php-code-128-encoder/releases/tag/0.2.7).
+
 ## License
 
 This library is licensed under the [MIT license](https://opensource.org/licenses/MIT).

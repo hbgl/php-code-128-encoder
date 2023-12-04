@@ -24,9 +24,6 @@ trait AdapterTrait
         if (self::$instance === null) {
             // Call constructor defined in this trait. See comment above.
             self::$instance = new self();
-
-            // Setting the ASCII maps is the only initialization we need to perform.
-            self::$instance->setAsciiMaps();
         }
         return self::$instance;
     }
